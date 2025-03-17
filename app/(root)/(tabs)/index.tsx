@@ -10,6 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
+      <Text className='font-bold my-10k font-rubik text-3xl my-10'>Welcome to Limitless</Text>
       <Link href='/sign-in'>Sign In</Link>
       <Link href='/booking'>Book Session</Link>
       <Link href='/sessions'>My Sessions</Link>
