@@ -15,17 +15,22 @@ export default function RootLayout() {
   });
 
   useEffect(() => {
-    if (fontsLoaded) {
-      SplashScreen.hideAsync();
-    }
+    const loadResources = async () => {
+      if (fontsLoaded) {
+        // Hide splash screen once resources are ready
+        await SplashScreen.hideAsync();
+      }
+    };
+
+    SplashScreen.preventAutoHideAsync(); // Prevent splash screen from auto-hiding
+    loadResources();
   }, [fontsLoaded]);
 
   if (!fontsLoaded) {
-    return null;
+    return null; // Show nothing while fonts are loading
   }
 
   return (
-    <Stack  screenOptions={{ headerShown: false }}/>
-
-);
+    <Stack screenOptions={{ headerShown: false }} />
+  );
 }

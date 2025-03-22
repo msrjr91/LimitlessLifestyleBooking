@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Sessions = () => {
+const Community = () => {
   return (
     <View>
-      <Text>Sessions</Text>
+      <Text>Community</Text>
     </View>
   )
 }
 
-export default Sessions
+export default Community

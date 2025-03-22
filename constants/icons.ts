@@ -31,6 +31,12 @@ import swim from "@/assets/icons/swim.png";
 import wifi from "@/assets/icons/wifi.png";
 import location from "@/assets/icons/location.png";
 import edit from "@/assets/icons/edit.png";
+import eye from "@/assets/icons/eye.png";
+import eyeClosed from "@/assets/icons/eye-closed.png";
+import booking from "@/assets/icons/booking.png";
+
+
+
 
 export default {
   google,
@@ -66,4 +72,7 @@ export default {
   wifi,
   location,
   edit,
+  eye,
+  eyeClosed,
+  booking,
 };

@@ -10,12 +10,8 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text className='font-bold my-10k font-rubik text-3xl my-10'>Welcome to Limitless</Text>
+      <Text className='font-bold my-10k font-rubik-extrabold text-3xl my-10'>My Schedule</Text>
       <Link href='/sign-in'>Sign In</Link>
-      <Link href='/booking'>Book Session</Link>
-      <Link href='/sessions'>My Sessions</Link>
-      <Link href='/profile'>Profile</Link>
-      <Link href='/properties/1'>Properties</Link>
     </View>
   );
 }
