@@ -9,6 +9,11 @@ import map from "@/assets/images/map.png";
 import noResult from "@/assets/images/no-result.png";
 import logo from "@/assets/images/logo.png";
 import logoSmall from "@/assets/images/logo-small.png";
+import cafe from "@/assets/images/cafe.jpg";
+import groupSession from "@/assets/images/group-session.jpg";
+import massage from "@/assets/images/massage.jpg";
+import nutrition from "@/assets/images/nutrition.jpg";
+import solo from "@/assets/images/solo.jpg";
 
 export default {
   onboarding,
@@ -22,4 +27,9 @@ export default {
   noResult,
   logo,
   logoSmall,
+  cafe,
+  groupSession,
+  massage,
+  nutrition,
+  solo
 };
