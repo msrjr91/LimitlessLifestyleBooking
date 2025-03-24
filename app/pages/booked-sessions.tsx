@@ -33,7 +33,7 @@ const trainerMenu = {
     title: "General Manager",
     qualifications: ['Level 3 Personal Trainer', 'Level 1 PFCA Functional Fitness Coach', 'Level 3 Sports Massage', 'BA(Hons) Sports Development with Business', 'Ma Sports Business Management'],
     image: images.Seamus,
-    description: "Affectionately known as 'The Sherriff', Seamus has 10 years of experience working in and around the fitness industry, private healthcare and corporate wellbeing. He is a regular competitor in fitness events such as HYROX, ATHX and he enjoys a Half Marathon fro time to time. With a keen interest in performance focused training and nutrition, he adds a different dynamic to the Limitless team."
+    description: "Affectionately known as 'The Sherriff', Seamus has 10 years of experience working in and around the fitness industry, private healthcare and corporate wellbeing. He is a regular competitor in fitness events such as HYROX, ATHX and he enjoys a Half Marathon from time to time. With a keen interest in performance focused training and nutrition, he adds a different dynamic to the Limitless team."
   },
   "4": {
     name: "Sam",

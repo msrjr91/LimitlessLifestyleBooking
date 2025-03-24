@@ -25,7 +25,7 @@ export default function Index() {
     { id: "2", title: "My Events" },
   ];
 
-  const [homeSelection, setHomeSelection] = useState<string>("1"); // Default selection
+  const [homeSelection, setHomeSelection] = useState<string>("1"); 
 
   const handlePress = (id: string) => {
     setHomeSelection(id);
@@ -43,7 +43,7 @@ export default function Index() {
   };
 
   return (
-    <SafeAreaView className="bg-white h-full">
+    <SafeAreaView className="bg-white">
       {signedIn ? (
         <View className="">
           {/* Header */}
@@ -87,7 +87,7 @@ export default function Index() {
             <View
               className="absolute h-[2px] bg-orange-100 rounded-full"
               style={{
-                width: width * 0.5, // Each button takes 50% of screen width
+                width: width * 0.5, 
                 left: homeItems.findIndex((item) => item.id === homeSelection) * (width * 0.5),
               }}
             />

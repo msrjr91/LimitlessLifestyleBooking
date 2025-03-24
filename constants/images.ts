@@ -1,12 +1,8 @@
-import onboarding from "@/assets/images/onboarding.png";
 import avatar from "@/assets/images/avatar.png";
-import newYork from "@/assets/images/new-york.png";
-import japan from "@/assets/images/japan.png";
 import cardGradient from "@/assets/images/card-gradient.png";
 import barChart from "@/assets/images/bar-chart.png";
 import whiteGradient from "@/assets/images/white-gradient.png";
 import map from "@/assets/images/map.png";
-import noResult from "@/assets/images/no-result.png";
 import logo from "@/assets/images/logo.png";
 import logoSmall from "@/assets/images/logo-small.png";
 import cafe from "@/assets/images/cafe.jpg";
@@ -18,18 +14,22 @@ import Alex from "@/assets/images/Alex.png";
 import Levi from "@/assets/images/Levi.png";
 import Sam from "@/assets/images/Sam.png";
 import Seamus from "@/assets/images/Seamus.png";
+import event1 from "@/assets/images/event1.png";
+import event2 from "@/assets/images/event2.png";
+import event3 from "@/assets/images/event3.png";
+import event4 from "@/assets/images/event4.png";
+import event5 from "@/assets/images/event5.png";
+import event6 from "@/assets/images/event6.png";
+import event7 from "@/assets/images/event7.png";
+
 
 
 export default {
-  onboarding,
   avatar,
-  newYork,
-  japan,
   cardGradient,
   barChart,
   whiteGradient,
   map,
-  noResult,
   logo,
   logoSmall,
   cafe,
@@ -41,4 +41,11 @@ export default {
   Levi,
   Seamus,
   Sam,
+  event1,
+  event2,
+  event3,
+  event4,
+  event5,
+  event6,
+  event7,
 };
