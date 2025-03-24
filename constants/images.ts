@@ -14,6 +14,11 @@ import groupSession from "@/assets/images/group-session.jpg";
 import massage from "@/assets/images/massage.jpg";
 import nutrition from "@/assets/images/nutrition.jpg";
 import solo from "@/assets/images/solo.jpg";
+import Alex from "@/assets/images/Alex.png";
+import Levi from "@/assets/images/Levi.png";
+import Sam from "@/assets/images/Sam.png";
+import Seamus from "@/assets/images/Seamus.png";
+
 
 export default {
   onboarding,
@@ -31,5 +36,9 @@ export default {
   groupSession,
   massage,
   nutrition,
-  solo
+  solo,
+  Alex,
+  Levi,
+  Seamus,
+  Sam,
 };
